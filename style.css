@@ -1,6 +1,58 @@
+
+/* HERO IMG */
 #bg {
-    background-image: url('https://d31cuupyjbe4e1.cloudfront.net/ADMIN/University-of-Miami-Cover-8aed22bf-db07-4525-b5d2-f45d72850158.jpg');
+    background-image: url('https://myunisearch.com/_next/image?url=https:%2F%2Fd31cuupyjbe4e1.cloudfront.net%2FADMIN%2FUniversity-of-Miami-Cover-8aed22bf-db07-4525-b5d2-f45d72850158.jpg&w=1080&q=75');
     background-repeat: no-repeat;
+    background-size: cover; /* Ensures the background image covers the element */
+    background-position: center; /* Centers the background image */
     width: 100%;
-    height: auto;
+    height: 400px; /* Adjust the height as needed */
+    margin: 0; /* Ensure there’s no margin */
+    padding: 0; /* Ensure there’s no padding */
+
+
+
+
+    opacity: 2;
+    margin-top: 40px;
+    -webkit-transition: opacity 0.5s ease-in;
+    -moz-transition: opacity 0.5s ease-in;
+    -o-transition: opacity 0.5s ease-in;
+    -ms-transition: opacity 0.5s ease-in;
+    transition: opacity 0.5s ease-in;
+    ;
 }
+/* Body */
+body {
+    background-image: url('pixlr-image-generator-d8f7fcbe-fca8-4da6-ac27-5af8834b962a.png');
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the background image covers the element */
+    width: 100%;
+    height: 400px; /* Adjust the height as needed */
+    margin: 0; /* Ensure there’s no margin */
+    padding: 0; /* Ensure there’s no padding */
+}
+
+/* NAV */
+.navbar {
+    display: flex;
+    justify-content: center;
+  }
+  
+
+  .navbar-collapse {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .navbar-nav {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 5px;
+    list-style: none;
+  }
+  h4 {
+    text-align: center;
+  }
