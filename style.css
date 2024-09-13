@@ -9,10 +9,6 @@
     height: 400px; /* Adjust the height as needed */
     margin: 0; /* Ensure there’s no margin */
     padding: 0; /* Ensure there’s no padding */
-
-
-
-
     opacity: 2;
     margin-top: 40px;
     -webkit-transition: opacity 0.5s ease-in;
@@ -24,13 +20,8 @@
 }
 /* Body */
 body {
-    background-image: url('pixlr-image-generator-d8f7fcbe-fca8-4da6-ac27-5af8834b962a.png');
-    background-repeat: no-repeat;
-    background-size: cover; /* Ensures the background image covers the element */
-    width: 100%;
-    height: 400px; /* Adjust the height as needed */
-    margin: 0; /* Ensure there’s no margin */
-    padding: 0; /* Ensure there’s no padding */
+    background-color: rgb(35, 85, 51);
+    
 }
 
 /* NAV */
@@ -56,3 +47,18 @@ body {
   h4 {
     text-align: center;
   }
+
+  .navbar-brand {
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    /* margin-right: 1rem; */
+    font-size: 1.25rem;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+
+
+  /* paralax */
+
+ 
