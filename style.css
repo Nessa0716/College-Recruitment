@@ -141,3 +141,47 @@ h5 {
 .carousel-control-prev, .carousel-control-next {
   filter: invert(1);
 }
+
+
+/* CARDS */
+
+.card {
+  background-color: #ff7321;
+
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.993);
+  margin: 15px;
+  overflow: hidden;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-header {
+  background-color: #385039;
+  color: white;
+  padding: 10px;
+  font-size: 1.2em;
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  padding: 15px;
+  border-radius: 0 0 10px 10px;
+  color: #000000;
+}
+
+.card-body p {
+  margin: 5px 0;
+}
+
+strong {
+  color: #3c6b41;
+}
