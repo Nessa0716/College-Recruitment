@@ -183,5 +183,15 @@ h5 {
 }
 
 strong {
-  color: #3c6b41;
+  color: #ffffff;
+}
+footer {
+  background-color: white;
+  padding: 60px;
+  text-align: center;
+}
+
+#mainTitle {
+  color: #005B5C;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2);
 }

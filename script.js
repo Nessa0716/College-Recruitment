@@ -98,3 +98,19 @@ function generateTeamCards() {
 }
 
 window.onload = generateTeamCards;
+
+// FORM START
+document.getElementById('signupForm').addEventListener('submit', function(event) {
+  event.preventDefault(); // Prevent the form from submitting
+  
+  const email = document.getElementById('email').value;
+  // Retrieves the value entered (below)
+  const message = document.getElementById('message');
+
+
+  // this part displays a message on the screen
+  message.textContent = `Thank you for signing up, ${email}!`;
+  
+  // Clear the input field
+  document.getElementById('email').value = '';
+});
