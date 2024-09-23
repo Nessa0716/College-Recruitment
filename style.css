@@ -334,3 +334,30 @@ h2 {
   margin: 10px;
   padding: 10px 20px;
 }
+
+#athleticsContainer {
+  text-align: center;
+  background-color: #ffffff;
+}
+
+#athleticsTitle {
+  color: #005B5C;
+  margin-bottom: 20px;
+}
+
+#athleticsIntro {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+#organizationsImage, #extracurricularImage {
+  border-radius: 10px;
+}
+
+
+
+#resourcesTitle {
+  margin: 40px 0;
+}
+
+
