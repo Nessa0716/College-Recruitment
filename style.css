@@ -54,7 +54,7 @@ body {
   .navbar-brand {
     padding-top: .3125rem;
     padding-bottom: .3125rem;
-    /* margin-right: 1rem; */
+ 
     font-size: 1.25rem;
     text-decoration: none;
     white-space: nowrap;
@@ -269,4 +269,68 @@ footer {
   margin-top: 20px; 
   font-family: 'Montserrat', sans-serif;
 }
+#buttonContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+}
 
+#uniqueButton {
+  background-color: #ff7321;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.744);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+#uniqueButton:hover {
+  background-color: #e66b1f;
+  transform: translateY(-2px);
+}
+
+
+/* About Us */
+#aboutContainer {
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+#aboutTitle {
+  color: #3c522f;
+  margin-bottom: 20px;
+}
+
+#aboutIntro {
+  font-size: 1.2em;
+  margin-bottom: 40px;
+}
+
+#historyImage, #campusLifeImage {
+ height: 300px;
+ width: 400px
+
+}
+
+#missionImage {
+margin: 50px;  
+height: 200px;
+  width: 500px
+}
+
+h2 {
+  color: #ff7321;
+  margin-bottom: 20px;
+}
+
+#resourcesTitle {
+  margin: 40px 0;
+}
+
+.btn {
+  margin: 10px;
+  padding: 10px 20px;
+}

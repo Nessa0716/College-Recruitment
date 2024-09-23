@@ -31,9 +31,9 @@ const teamMembers = [
       'Financial Literacy Workshops: Join our workshops to enhance your financial management skills.'
     ],
     links: {
-      budgeting: "https://www.yourcollege.edu/budgeting-tools",
-      costOfAttendance: "https://www.yourcollege.edu/cost-of-attendance",
-      workshops: "https://www.yourcollege.edu/financial-literacy-workshops"
+      budgeting: "https://finaid.miami.edu/resources/fiscal-fitness/Budgeting/index.html",
+      costOfAttendance: "https://finaid.miami.edu/cost/index.html",
+      workshops: "https://www.library.miami.edu/research/workshops-tutorials.html"
     }
   },
 ];
@@ -76,7 +76,7 @@ function generateTeamCards() {
       const bulletList = createBulletList(member.items);
       card.querySelector('.card-body').appendChild(bulletList);
       
-      // Adding links for "Financial Literacy Resources"
+      // Adding links for Financial Literacy Resources
       if (member.links) {
         const budgetingLink = document.createElement('p');
         budgetingLink.innerHTML = `<a href="${member.links.budgeting}" target="_blank">Budgeting Tools</a>`;
